@@ -1,7 +1,6 @@
 const nextConfig = {
-  experimental: {
-    appDir: false,
-  },
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;
